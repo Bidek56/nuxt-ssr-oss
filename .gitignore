@@ -1,0 +1,31 @@
+# dependencies (bun install)
+node_modules
+
+# build output
+.output
+.nuxt
+.node_modules
+out
+dist
+*.tgz
+
+# per-job temp working area (uploads + cached reports)
+.tmp
+
+# dotenv environment variable files
+.env
+.env.*.local
+.env.local
+
+# logs
+logs
+*.log
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# os / editor
+.idea
+.DS_Store
